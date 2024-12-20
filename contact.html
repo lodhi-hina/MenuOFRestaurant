@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us: Indian Essence</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        .background {
+            background: url('https://assets.architecturaldigest.in/photos/63733ec2a2dd6ea6560eb6da/16:9/w_2560%2Cc_limit/Ditas%2520Interior%2520Image%2520-%25201%2520(8).png') no-repeat center center;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .contact-container-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1200px; /* Set a maximum width for the wrapper */
+        }
+
+        .contact-container {
+            width: 90%;
+            max-width: 99%; /* Ensure the container doesn't get too wide on large screens */
+            background: rgba(20, 9, 9, 0.9);
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .contact-details {
+            color: #f3efef;
+            margin-bottom: 20px;
+            font-size: 2.8rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .contact-details h2 {
+            color: #fbf7f7;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        .contact-details p {
+            color: #f6f5f5;
+            line-height: 1.6;
+            font-size: 2.2rem;
+        }
+
+        .contact-details a {
+            color: #f32409;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+
+        #go {
+    background-color: black;
+    padding: 10px 0;
+}
+
+/* Style for the navigation container */
+#go-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Style for the links inside the navigation bar */
+.go-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for the links */
+.go-link:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .contact-container {
+                width: 100%; /* Full width on smaller screens */
+                max-width: none;
+            }
+
+            .contact-details h2 {
+                font-size: 1.5rem; /* Adjust heading size */
+            }
+
+            .contact-details p {
+                font-size: 1rem; /* Adjust text size */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact-details h2 {
+                font-size: 1.3rem; /* Further reduce heading size */
+            }
+
+            .contact-details p {
+                font-size: 0.9rem; /* Further reduce text size */
+            }
+        }
+        @media (max-width: 360px) {
+            .contact-details h2 {
+                font-size: 1rem; /* Further reduce heading size */
+            }
+
+            .contact-details p {
+                font-size: 0.5rem; /* Further reduce text size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="go">
+        <nav id="go-page">
+            <a class="go-link" href="index.html">Home</a>
+            <a class="go-link" href="about.html">About</a>
+            <a class="go-link" href="menu.html">Menu</a>
+            <a class="go-link" href="contact.html">Contact</a>
+        </nav>
+     </header>
+    <div class="background">
+        <div class="contact-container-wrapper">
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h1>Contact Us</h1>
+                    <p>We're always here to help! If you have any questions, feedback, or just want to get in touch, feel free to reach out to us using any of the following methods:</p>
+                </div>
+
+                <div class="contact-details">
+                    <h2>Address:</h2>
+                    <p><a href="https://maps.app.goo.gl/Lk9VEswxzXH1WsPFA" target="_blank">Indian Essence<br>Navgurukul<br>Raipur, Chhattisgarh, India</a></p>
+                </div>
+
+                <div class="contact-details">
+                    <h2>Phone:</h2>
+                    <p>(123) 456-7890</p>
+                </div>
+
+                <div class="contact-details">
+                    <h2>Email:</h2>
+                    <p><a href="mailto:abc@navgurukul.org">www.indianessence@gmail.com</a></p>
+                </div>
+
+                <div class="contact-details">
+                    <h2>Operating Hours:</h2>
+                    <p>Monday to Friday: 08:00am - 08:00pm<br>Saturday and Sunday: 08:00am - 08:00pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
